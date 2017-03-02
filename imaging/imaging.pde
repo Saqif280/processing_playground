@@ -2,7 +2,7 @@ PImage img;
 
 void setup() {
   size(350, 350);
-  img = loadImage("saqif.JPG");
+  img = loadImage("rsz_face2.jpg");
   //background(200);
 }
 
@@ -11,10 +11,10 @@ void draw() {
   int y = int(random(img.height));
   int imgCol = img.get(x, y);
   fill(imgCol, 150);
-  text(imgCol, x, y);
+  text("joy", x, y);
   // create coordinate text
 }
 
 void keyPressed() {
-  img = loadImage("saqif2.jpg");
+  //img = loadImage("face2.jpg");
 }
